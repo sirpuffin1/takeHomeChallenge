@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
+  baseUrl = 'https://api.github.com/'
 
   constructor() { }
 }
