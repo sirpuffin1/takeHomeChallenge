@@ -8,5 +8,7 @@ import { CommitsService } from './services/commits.service';
 export class AppComponent {
   title = 'takeHomeChallenge';
   commits: any;
-  constructor(private commitsService: CommitsService){}
+  constructor(private commitsService: CommitsService){
+    this.commitsService.commits$.subscribe((item: any) => this.commits = item)
+  }
 }
