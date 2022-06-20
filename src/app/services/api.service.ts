@@ -6,5 +6,5 @@ import { HttpClient } from '@angular/common/http';
 export class ApiService {
   baseUrl = 'https://api.github.com/'
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 }
