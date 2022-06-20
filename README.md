@@ -12,7 +12,7 @@ cd takeHomeChallenge
 # install
 npm install
 # run in your terminal
-ng serve --o
+npm start
 ```
 This should open a browser visiting [http://localhost:4200](http:localhost:4200) in your browser.
 In the case this doesn't work please visit this address.
