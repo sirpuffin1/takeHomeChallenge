@@ -7,4 +7,5 @@ import { CommitsService } from './services/commits.service';
 })
 export class AppComponent {
   title = 'takeHomeChallenge';
+  commits: any;
 }
