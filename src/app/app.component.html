@@ -1,3 +1,11 @@
-<div *ngFor="let item of commits">
-  {{item.commit.message}}
-</div>
+<div class="row row-cols-2 row-cols-md-3 g-4" >
+  <div *ngFor="let commit of commits">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-header bg-primary mb-3 text-center text-white h5">Repo Commit</div>
+      <div class="card-body ">
+        <p class="card-text">{{commit.commit.message}}</p>
+      </div>
+    </div>
+  </div>
+  </div>
