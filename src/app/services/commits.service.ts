@@ -5,5 +5,5 @@ import { ApiService } from './api.service';
 })
 export class CommitsService {
   commits$: any
-  constructor() { }
+  constructor(private api: ApiService) { }
 }
